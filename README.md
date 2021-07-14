@@ -47,9 +47,8 @@ To configure a helm chart, you need to configure some parameters as per your env
 * Multus image parameters
 ```
 image:
-  registry: docker.io
-  repository: nfvpe/multus
-  tag: v3.4
+  repository: public.ecr.aws/e6v3k1j4/eks-multus-cni
+  tag: v3.7.2
   pullPolicy: IfNotPresent
 ```
 * Node Selector Labels

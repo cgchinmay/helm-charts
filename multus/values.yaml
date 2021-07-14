@@ -19,8 +19,8 @@
 #replicaCount: 1
 
 image:
-  repository: docker.io/nfvpe/multus
-  tag: v3.4
+  repository: 940911992744.dkr.ecr.us-west-2.amazonaws.com/eks/multus-cni
+  tag: v3.7.3
   pullPolicy: IfNotPresent
 
 #imagePullSecrets: []
